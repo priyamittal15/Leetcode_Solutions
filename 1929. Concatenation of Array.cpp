@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> getconcatenation(vector<int>& nums) {
+    vector<int> Getconcatenation(vector<int>& nums) {
         int n=nums.size();
         for(int i=0;i<n;i++){
             nums.push_back(nums[i]);

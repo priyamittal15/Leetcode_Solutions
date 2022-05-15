@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<double> CalcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
+    vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
     
         vector<double> ans;
         map<string,double> mp;

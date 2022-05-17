@@ -24,6 +24,6 @@ public:
          TreeNode* sentinel = new TreeNode(0);
         TreeNode* ans = sentinel;
         dfs(root, sentinel);
-        return ans->right;
+        return ans->right
     }
 };

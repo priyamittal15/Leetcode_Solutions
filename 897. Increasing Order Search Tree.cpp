@@ -9,7 +9,7 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-class Solution {
+class solution {
     void dfs(TreeNode* root, TreeNode*& sentinel) {
         if(!root) return;
         dfs(root->left, sentinel);

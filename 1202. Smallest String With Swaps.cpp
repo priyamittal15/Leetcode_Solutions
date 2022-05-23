@@ -1,4 +1,4 @@
-class Solution {
+class solution {
 public:
      bool flag[100011];
     vector<int> vec[100001], pos;

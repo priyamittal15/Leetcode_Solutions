@@ -1,4 +1,4 @@
-class Solution {
+class solution {
 public:
     void moveZeroes(vector<int>& nums) {
     for(int i=0, countZero=0; i<nums.size(); i++){

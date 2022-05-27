@@ -31,7 +31,7 @@ public:
                 temp=nestedList[i].getInteger();
                 flattenList.push_back(temp);
             }else{
-                temp2=nestedList[i].getList();
+                tem2=nestedList[i].getList();
                 helperFunc(temp2);
             }
         } 

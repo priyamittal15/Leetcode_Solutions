@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int sumoddLengthSubarrays(vector<int>& arr) {
+    int SumoddLengthSubarrays(vector<int>& arr) {
         int sum=0;
         for(int i=0;i<arr.size();i++){
 

@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> buildArray(vector<int>& nums) {
+    vector<int> BuildArray(vector<int>& nums) {
         int n=nums.size();
         vector<int>num1(n);
        

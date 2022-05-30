@@ -3,7 +3,7 @@ public:
     map<double,pair<string,double>> customer;
 	//customer is storing customer id as key and stationname and time as value
     map<pair<string, string>, pair<double, double>> total;
-	//total is storing startstation and endstation as key and totaltime and count as value
+	//total storing startstation and endstation as key and totaltime and count as value
     UndergroundSystem() {
         customer.clear();
         total.clear();

@@ -1,6 +1,6 @@
 class Solution {
 public:
-    string removeDuplicates(string s, int k) {
+    string RemoveDuplicates(string s, int k) {
         int n = s.size();
         if(n<k) return s;
         

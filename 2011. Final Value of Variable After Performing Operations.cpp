@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int FinalValueAfterOperations(vector<string>& operations) {
+    int FinalvalueAfterOperations(vector<string>& operations) {
         int X=0;
         for(int i=0; i<operations.size();i++){
             if(operations[i]=="--X" or operations[i]=="X--"){

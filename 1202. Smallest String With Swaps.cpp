@@ -1,6 +1,6 @@
 class solution {
 public:
-     bool flag[100011];
+     bool Flag[100011];
     vector<int> vec[100001], pos;
     vector<char> allChars;
     string str;

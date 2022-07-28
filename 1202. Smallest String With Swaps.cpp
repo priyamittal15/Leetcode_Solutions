@@ -1,7 +1,7 @@
 class solution {
 public:
-     bool Flag[100011];
-    vector<int> vec[100001], pos;
+     bool Flag[100011]
+    vector<int> vec[100001], pos
     vector<char> allChars;
     string str;
     string smallestStringWithSwaps(string s, vector<vector<int>>& pairs) {
